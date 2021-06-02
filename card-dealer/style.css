@@ -1,0 +1,48 @@
+    body{
+        background-color: rgb(29, 133, 29);
+    }
+    .card {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    margin: auto;
+    padding: 180px 20px 20px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    }
+    span.top{
+    position: absolute;
+    top: -30px;
+    left: 5px;
+    font-size: 80px;
+    }
+     span.bottom{
+    position: absolute;
+    bottom: -20px;
+    right: 5px;
+    font-size: 80px;
+    }
+    span.number{
+    font-size: 80px;
+    position: absolute;
+    top: 125px;
+    left: 125px;
+    }
+    .spade{ 
+        content: '\2660';
+    }
+    .club{
+         content: '\2663';
+    }
+    .heart{
+         content: '\2665';
+    }
+    .diamond{
+         content: '\2666';
+    }
